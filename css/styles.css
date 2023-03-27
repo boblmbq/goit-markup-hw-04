@@ -176,6 +176,9 @@ header {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
+
+     padding-top: 24px;
+     padding-bottom: 24px;
 }
 
 
@@ -206,6 +209,10 @@ header {
 
 .same-background {
      background-color: var(--color-tit-back);
+}
+
+.first-section{
+     background-image: url(../images/people-office.jpg);
 }
 
 
