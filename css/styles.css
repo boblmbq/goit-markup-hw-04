@@ -200,18 +200,22 @@ header {
 
 /* ------------------------------First Section Style----------------------------- */
 
-.container-section-one {
-     padding-bottom: 188px;
-     padding-top: 188px;
-     text-align: center;
-
-}
+.container-section-one {}
 
 .same-background {
      background-color: var(--color-tit-back);
 }
 
-.first-section-bck {
+.first-section {
+     padding-bottom: 188px;
+     padding-top: 188px;
+     text-align: center;
+
+     max-width: 1440px;
+     margin-left: auto;
+     margin-right: auto;
+
+
      background-image:
           linear-gradient(rgba(46, 47, 66, 0.7),
                rgba(46, 47, 66, 0.7)),
@@ -220,8 +224,7 @@ header {
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     width: 100%;
-     height: 100%;
+
 }
 
 .section-one {
@@ -295,13 +298,20 @@ header {
 .section-two-icon {
      display: flex;
      width: 100%;
+     height: 112px;
+
      background-color: var(--color-bck-btn);
      border-radius: 4px;
+
      justify-content: center;
-     padding-bottom: 24px;
-     padding-top: 24px;
+     align-items: center;
 
      margin-bottom: 8px;
+}
+
+.section-two-icon-svg{
+     height: 64px;
+     width: 64px;
 }
 
 .list-item-two:not(:last-child) {
@@ -405,7 +415,7 @@ div.four-text {
      align-items: center;
 }
 
-.desc{
+.desc {
      margin-bottom: 8px;
 }
 
@@ -427,10 +437,10 @@ div.four-text {
      width: 100%;
      height: 100%;
      border-radius: 50%;
-background-color: var(--color-font-logo);
+     background-color: var(--color-font-logo);
 }
 
-.section-four-icon a:hover{
+.section-four-icon a:hover {
      background-color: var(--color-bck-btn-act);
 }
 
